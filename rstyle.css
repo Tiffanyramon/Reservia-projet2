@@ -1,7 +1,6 @@
-@font-face {
-    font-family: "raleway";
-    src: url(https://fonts.google.com/specimen/Raleway);
-}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
 
 html, body{
     background-attachment: scroll;
@@ -93,12 +92,13 @@ h1{
 
 /*barre de recherche*/
 
-.recherches{
+.recherche{
     height: auto;
     display: inline-block;
     border: 0.5px solid #f2f2f2;
     border-radius: 20px 20px 20px 20px;
     margin-left: 30px;
+    border: #f2f2f2 solid 1px;
 }
 
 .champ{
@@ -115,10 +115,11 @@ h1{
     background-color: #0065FC;
     border-radius: 0px 20px 20px 0px;
     border: none;
+    cursor:pointer;
 }
 
 .bouton:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 .fa-map-marker-alt {
@@ -146,16 +147,15 @@ h1{
 
 .filtres h3{
     float: left;
-    line-height: 10%;
-    margin-top: 70px;
-    margin-bottom: 10px;
 }
 
 .filtres ul{
-    display: inline-block;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    font-weight: bold;
     overflow: hidden;
-    margin-top: 70px;
-    width:80%
 }
 
 .filtres li{
@@ -289,16 +289,18 @@ h1{
 }
 
 .fas.fa-info{
+    border: solid 2px #f2f2f2;
+    padding: 2px;
+    font-size: 12px;
     color: #0065FC;
-    background-color:white;
+    border-radius: 50%;
+    line-height: 20px;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    text-align: center;
     margin-right: 10px;
-    font-size: 15px;
-    margin-left: 30px;
-    border: 2px solid #dbd9d9;
-    border-radius: 2rem;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    margin-left: 20px;
+ 
 }
 .cercle{
     margin-bottom: 22px;
@@ -390,7 +392,7 @@ h1{
     border: 3px solid rgb(255, 255, 255);
     object-fit: cover;
     width: 100%;
-    height: 150px;
+    height: 125px;
     border-radius: 1rem 1rem 0 0;
 }
 
@@ -405,12 +407,12 @@ h1{
 .fa-star {
     color:#0065FC;
     background-color: white;
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .etoilegrise .fa-star{
     color:#d6cfcf;
-    font-size: 10px;
+    font-size: 14px;
 }
 
 .afficher {
@@ -552,7 +554,7 @@ h1{
 
 .image1 figure{
     width: 100%;
-    height: 577px;
+    height: 468px;
     border-radius: 1rem 1rem 1rem 1rem;
     box-shadow: 0 0 16px #0000002e;
     margin-block-start: 0px;
@@ -564,7 +566,7 @@ h1{
 .image1 img{
     object-fit: cover;
     width: 100%;
-    height: 530px;
+    height: 420px;
     border-radius: 1rem 1rem 0 0;
 }
 
@@ -593,7 +595,7 @@ h1{
 
 .image2 figure{
     width: 100%;
-    height: 312px;
+    height: 274px;
     border-radius: 1rem 1rem 1rem 1rem;
     box-shadow: 0 0 16px #0000002e;
     margin-block-start: 0px;
@@ -605,7 +607,7 @@ h1{
 .image2 img{
     object-fit: cover;
     width: 100%;
-    height: 260px;
+    height: 219px;
     border-radius: 1rem 1rem 0 0;
 }
 
@@ -634,19 +636,17 @@ h1{
 
 .image3 figure{
     width: 100%;
-    height: 209px;
+    height: 141px;
     border-radius: 1rem 1rem 1rem 1rem;
     box-shadow: 0 0 16px #0000002e;
-    margin-block-start: -6px;
-    margin-block-end: 10px;
+    margin-block-start: -48px;
     margin-inline-start: 0px;
-    margin-inline-end: 5px;
 }
 
 .image3 img{
     object-fit: cover;
     width: 100%;
-    height: 160px;
+    height: 94px;
     border-radius: 1rem 1rem 0 0;
 }
 
@@ -674,7 +674,7 @@ h1{
     
 .image4 figure{
     width: 100%;
-    height: 579px;
+    height: 468px;
     border-radius: 1rem 1rem 1rem 1rem;
     box-shadow: 0 0 16px #0000002e;
     margin-block-start: 0px;
@@ -686,7 +686,7 @@ h1{
 .image4 img{
     object-fit: cover;
     width: 100%;
-    height: 530px;
+    height: 420px;
     border-radius: 1rem 1rem 0 0;
 }
 
@@ -715,7 +715,7 @@ h1{
 
 .image5 figure{
     width: 100%;
-    height: 312px;
+    height: 209px;
     border-radius: 1rem 1rem 1rem 1rem;
     box-shadow: 0 0 16px #0000002e;
     margin-block-start: 0px;
@@ -727,7 +727,7 @@ h1{
 .image5 img{
     object-fit: cover;
     width: 100%;
-    height: 260px;
+    height: 159px;
     border-radius: 1rem 1rem 0 0;
 }
 
@@ -756,19 +756,17 @@ h1{
 
 .image6 figure{
     width: 100%;
-    height: 209px;
+    height: 233px;
     border-radius: 1rem 1rem 1rem 1rem;
     box-shadow: 0 0 16px #0000002e;
-    margin-block-start: -6px;
-    margin-block-end: 10px;
+    margin-block-start: -138px;
     margin-inline-start: 0px;
-    margin-inline-end: 5px;
 }
 
 .image6 img{
     object-fit: cover;
     width: 100%;
-    height: 160px;
+    height: 183px;
     border-radius: 1rem 1rem 0 0;
 }
 
