@@ -1,5 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+/*media*/
+
+@media screen and (max-width: 750px)
+{
+  body,header,main{
+      margin: O;
+  }
+ 
+  /*menu*/
+  .menu ul{
+      flex-wrap: wrap-reverse;
+      padding-left: 0;
+      padding-top: 0px;
+  }
+  .hebergements{
+      width:50%;
+      text-align: center;
+      border-bottom: 3px solid #0065FC;
+      padding-bottom: 30px;
+  }
+  .activités{
+      width: 50%;
+      text-align: center;
+      border-bottom: 3px solid #F2F2F2;
+  }
+  .sinscrire{
+      text-align: right;
+      height:  75px;
+  }
+  /*première section*/
+
+  /*barre de recherche*/
+   #recherche{
+       margin-left: 10px;
+   }
+   
+  /*filtres*/
+  .filtres{
+      display: flex;
+      align-items: flex-start;
+  }
+
+  /*hébergements*/
+  /*populaires*/
+ 
+  
+  /*activités*/
+  /*footer*/
+
+}
 
 
 html, body{
@@ -50,19 +100,19 @@ header{
 }
 
 .hebergements a:hover{
-    border-top: 4px solid blue;
+    border-top: 4px solid #0065FC;
     padding-top: 40px;
 }
 
 .hebergements a{
     color:#0065FC;
     text-decoration:none;
-    border-top: 4px solid blue;
+    border-top: 4px solid #0065FC;
     padding-top: 40px;
 }
 
 .activités a:hover{
-    border-top: 4px solid blue;
+    border-top: 4px solid #0065FC;
     padding-top: 40px;
 }
 
@@ -109,7 +159,7 @@ h1{
 
 .bouton {
     width: 150px;
-    line-height: 60px;
+    line-height: 66px;
     font-size: 16px;
     color: white;
     background-color: #0065FC;
