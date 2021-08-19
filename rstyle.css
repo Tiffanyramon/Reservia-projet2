@@ -17,8 +17,8 @@
       border-bottom: 3px solid #0065FC;
       padding-bottom: 30px;
   }
-  .hebergements a {
-      border-top: none in !important;/*nfp*/
+  .hebergements a{
+      border-top: none !important;/*nfp*/
   }
   .activités{
       width: 50%;
@@ -29,11 +29,14 @@
       text-align: right;
       height:  75px;
   }
-
+  .formulaire{
+      display: flex;
+  }
+  
   /* PARAMETRES DU DISPLAY BOUTON LOUPE */
     
     .search{
-    display: inline;
+    display: none;
     color: white;
     background-color: #0065fc;
     padding: 18px;
@@ -46,54 +49,83 @@
     display: none;
   }
 
- /* FILTRES */
+ /*filtres*/
     
     .filtres{
-        display: grid;
+        display: flex;
   }
     
       .filtre{
         margin-bottom: 10px;
   }
     
-  /*POPULAIRES */
+  /*populaires*/
     
   .lespluspopulaires{
-    grid-column-start: 1; 
-    grid-column-end: 1;
-    margin-bottom:20px;
-    background-color: #F2F2F2;
+    grid-column-start: 1;
+    margin: 10px;
+    grid-row: 1;
   }
-
-
+  .flotte img{
+      height: 155px;
+  }
    /* hebergements*/
 
    #herbergmentamarseille{
-       grid-row-start: 2;
-       grid-row-end: 2;
        background-color: white;
+   }
+   .hebergementstitre{
+       background-color: white;
+   }
+   .alignement{
+       flex-direction: column;
+   }
+   .bannieres{
+       width: 140px;
    }
     /*activites*/
     
    #activitesamarseille{
        display: flex;
        flex-direction: column;
-       margin: 15px 30px 15px 30px;
   }
-  .image{
-      width: 100%
+  .image1 figure{
+      height: 200px;
+  }
+  .image1 img{
+      height:150px;
+  }
+  .image2 figure{
+      height: 200px;
+      margin-block-start: -9;
+  }
+  .image2 img{
+      height:150px;
+  }
+  .image3 figure{
+    height: 200px;
+    margin-block-start: -9;
+  }
+  .image3 img{
+    height:150px;
+  }
+  .image4 figure{
+    height: 200px;
+  }
+  .image4 img{
+    height:150px;
+  }
+  .image5 figure{
+      height: 200px;
+      margin-block-start: -4px;
+  }
+  .image5 img{
+      height:150px;
   }
 
-  .image figure{
-      width:100%;
-      height:200%;
-  }
-
-  /* FOOTER*/
-
-.contenu-footer{
-    flex-direction: column;
-    flex-wrap: nowrap;
+  /*footer*/
+  .contenu-footer{
+      flex-direction: column;
   }
 
 }
