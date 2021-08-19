@@ -6,36 +6,36 @@
 
 /* HEADER */
 
-  .menu ul{
+  .menu ul {
       flex-wrap: wrap-reverse;
       padding-left: 0;
       padding-top: 0px;
   }
-  .hebergements{
+  .hebergements {
       width:50%;
       text-align: center;
       border-bottom: 3px solid #0065FC;
       padding-bottom: 30px;
   }
-  .hebergements a{
+  .hebergements a {
       border-top: none !important;/*nfp*/
   }
-  .activités{
+  .activités {
       width: 50%;
       text-align: center;
       border-bottom: 3px solid #F2F2F2;
   }
-  .sinscrire{
+  .sinscrire {
       text-align: right;
       height:  75px;
   }
-  .formulaire{
+  .formulaire {
       display: flex;
   }
   
   /* PARAMETRES DU DISPLAY BOUTON LOUPE */
     
-    .search{
+    .search {
     display: none;
     color: white;
     background-color: #0065fc;
@@ -45,92 +45,92 @@
     right: 52px;
   }
 
-   .boutonderecherche{
+   .boutonderecherche {
     display: none;
   }
 
  /*filtres*/
     
-    .filtres{
+    .filtres {
         display: flex;
   }
     
-      .filtre{
+      .filtre {
         margin-bottom: 10px;
   }
     
   /*populaires*/
     
-  .lespluspopulaires{
+  #lespluspopulaires {
     grid-column-start: 1;
     margin: 10px;
     grid-row: 1;
   }
-  .flotte img{
+  .flotte img {
       height: 155px;
   }
-   /* hebergements*/
+   /*hebergements*/
 
-   #herbergmentamarseille{
+   #hebergementsamarseille {
        background-color: white;
    }
-   .hebergementstitre{
+   .hebergementstitre {
        background-color: white;
    }
-   .alignement{
+   .alignement {
        flex-direction: column;
    }
-   .bannieres{
+   .bannieres {
        width: 140px;
    }
     /*activites*/
     
-   #activitesamarseille{
+   #activitesamarseille {
        display: flex;
        flex-direction: column;
   }
-  .image1 figure{
+  .image1 figure {
       height: 200px;
   }
-  .image1 img{
+  .image1 img {
       height:150px;
   }
-  .image2 figure{
+  .image2 figure {
       height: 200px;
       margin-block-start: -9px;
   }
-  .image2 img{
+  .image2 img {
       height:150px;
   }
-  .image3 figure{
+  .image3 figure {
     height: 200px;
     margin-block-start: -9px;
   }
-  .image3 img{
+  .image3 img {
     height:150px;
   }
-  .image4 figure{
+  .image4 figure {
     height: 200px;
   }
-  .image4 img{
+  .image4 img {
     height:150px;
   }
-  .image5 figure{
+  .image5 figure {
       height: 200px;
       margin-block-start: -4px;
   }
-  .image5 img{
+  .image5 img {
       height:150px;
   }
 
   /*footer*/
-  .contenu-footer{
+  .contenu-footer {
       flex-direction: column;
   }
 
 }
 
-html, body{
+html, body {
     background-attachment: scroll;
     /*le fond ne bouge pas*/
     margin: 0px;
@@ -138,58 +138,58 @@ html, body{
     font-family:"Raleway";
 }
 
-body{
+body {
     max-width: 1800px;
     display: block;
     margin: auto;
 }
-header{
+header {
     margin: 0;
     padding: 0;
 }
 /*header*/
 /*menu*/
 
-.logo{
+.logo {
     width: 100px;
     height: 50px;
     margin-left: 30px;
     float: left;
     position: absolute;
 }
-.menu{
+.menu {
     display: flex;
     flex-direction: row;
     padding-bottom: 30px;
     padding-top: 30px;
 }
 
-.menu ul{
+.menu ul {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
     list-style-type: none;
     width: 100%;
 }
-.menu a{
+.menu a {
     border: transparent 3px;
     padding-left: 40px;
     padding-right: 40px;
 }
 
-.hebergements a:hover{
+.hebergements a:hover {
     border-top: 4px solid #0065FC;
     padding-top: 40px;
 }
 
-.hebergements a{
+.hebergements a {
     color:#0065FC;
     text-decoration:none;
     border-top: 4px solid #0065FC;
     padding-top: 40px;
 }
 
-.activités a:hover{
+.activités a:hover {
     border-top: 4px solid #0065FC;
     padding-top: 40px;
 }
@@ -199,19 +199,19 @@ header{
     text-decoration: none; 
 }
 
-.sinscrire a{
+.sinscrire a {
     color: #0065FC;
     text-decoration: none;
 }
 
 /*main*/
 
-h1{
+h1 {
     font-size: 22px;
     margin-left: 30px;
 }
 
-.p1{
+.p1 {
     margin-bottom: 22px;
     margin-left: 30px;
     font-size: 15px;
@@ -229,7 +229,7 @@ h1{
     border: #f2f2f2 solid 1px;
 }
 
-.champ{
+.champ {
     border: none;
     font-size: 16px;
     padding-left: 25px;
@@ -259,29 +259,29 @@ h1{
 .search {
     display: none;
 }
-.placeholder{
+.placeholder {
     color: black;
 
 }
 
 /*filtres*/
 
-.filtres{
+.filtres {
     font-size: 16px;
     margin-left: 30px;
     margin-top: 30px;
 }
 
-.filtres{
+.filtres {
     width: 100%;
     height: auto;
 }
 
-.filtres h3{
+.filtres h3 {
     float: left;
 }
 
-.filtres ul{
+.filtres ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -290,26 +290,26 @@ h1{
     overflow: hidden;
 }
 
-.filtres li{
+.filtres li {
     list-style-type: none;
 }
 
-.filtres a{
+.filtres a {
     text-decoration: none;
     font-size: 15px;
     padding: 15px;
 }
 
-.premiere{
+.premiere {
     float: left;
     transition: 0.5s;
 }
 
-.premiere:hover{
+.premiere:hover {
     transform: scale(1.2);
 }
 
-.economique{
+.economique {
     border: 2px solid #dbd9d9;
     border-radius: 2rem;
     margin-top: 10px;
@@ -317,7 +317,7 @@ h1{
     margin-left: 10px;
 }
 
-.economique i{
+.economique i {
     color: #0065FC;
     background-color: #deebff;
     border-radius: 100%;
@@ -325,20 +325,20 @@ h1{
     padding: 17px;
 }
 
-.economique a{
+.economique a {
     color: black;
 }
 
-.deuxieme{
+.deuxieme {
     float: left;
     transition:0.5s;
 }
 
-.deuxieme:hover{
+.deuxieme:hover {
     transform : scale(1.2);
 }
 
-.familial{
+.familial {
     border: 2px solid #dbd9d9;
     border-radius: 2rem;
     margin-top: 10px;
@@ -346,7 +346,7 @@ h1{
     margin-left: 20px;
 }
 
-.familial i{
+.familial i {
     color: #0065FC;
     background-color: #deebff;
     border-radius: 100%;
@@ -354,20 +354,20 @@ h1{
     padding: 17px;
 }
 
-.familial a{
+.familial a {
     color: black;
 }
 
-.troiseme{
+.troiseme {
     float: left;
     transition:0.5s;
 }
 
-.troiseme:hover{
+.troiseme:hover {
     transform : scale(1.2);
 }
 
-.romantique{
+.romantique {
     border: 2px solid #dbd9d9;
     border-radius: 2rem;
     margin-top: 10px;
@@ -375,7 +375,7 @@ h1{
     margin-left: 20px;
 }
 
-.romantique i{
+.romantique i {
     color: #0065FC;
     background-color: #deebff;
     border-radius: 100%;
@@ -383,20 +383,20 @@ h1{
     padding: 17px;
 }
 
-.romantique a{
+.romantique a {
     color: black;
 }
 
-.quatrieme{
+.quatrieme {
     float: left;
     transition:0.5s;
 }
 
-.quatrieme:hover{
+.quatrieme:hover {
     transform : scale(1.2);
 }
 
-.animaux{
+.animaux {
     border: 2px solid #dbd9d9;
     border-radius: 2rem;
     margin-top: 10px;
@@ -404,7 +404,7 @@ h1{
     margin-left: 20px;
 }
 
-.animaux i{
+.animaux i {
     color: #0065FC;
     background-color: #deebff;
     border-radius: 100%;
@@ -412,15 +412,15 @@ h1{
     padding: 17px;
 }
 
-.animaux a{
+.animaux a {
     color: black;
 }
 
-.nombre_logements{
+.nombre_logements {
     margin-bottom: 30px;
 }
 
-.fas.fa-info{
+.fas.fa-info {
     border: solid 2px #f2f2f2;
     padding: 2px;
     font-size: 12px;
@@ -434,7 +434,7 @@ h1{
     margin-right: 10px;
  
 }
-.cercle{
+.cercle {
     margin-bottom: 22px;
     margin-left: 30px;
     font-size: 15px;
@@ -475,7 +475,7 @@ h1{
     border-radius: 20px 20px 0px 0px;
 }
 
-.hebergementstitre h2{
+.hebergementstitre h2 {
    
     font-size: 22px;
 }
@@ -542,7 +542,7 @@ h1{
     font-size: 14px;
 }
 
-.etoilegrise .fa-star{
+.etoilegrise .fa-star {
     color:#d6cfcf;
     font-size: 14px;
 }
@@ -584,7 +584,7 @@ h1{
     padding-left: 30px;
 }
 
-.populaires h2{
+.populaires h2 {
 
     font-size: 22px;
 }
@@ -625,7 +625,7 @@ h1{
     text-decoration: none;
 }
 
-.legende{
+.legende {
     padding-top: 20px;
     padding-left: 20px;
 }
@@ -655,13 +655,13 @@ h1{
 }
 /*activites*/
 
-.activitestitre{
+.activitestitre {
     padding-top: 35px;
     padding-bottom: 10px;
     padding-left: 30px;
 }
 
-#activitesamarseille{
+#activitesamarseille {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows:  repeat(2, 350px);
@@ -669,22 +669,22 @@ h1{
     grid-row-gap: 25px;
     margin-left: 30px;
 }
-.image1{
+.image1 {
     grid-column-start: 1;
     grid-column-end: 1;
     grid-row-start: 1;
     grid-row-end: 2;
     transition:0.5s;
 }
-.image1:hover{
+.image1:hover {
     transform: scale(1.2);
 }
 
-.image1 a{
+.image1 a {
     text-decoration: none;
 }
 
-.image1 figure{
+.image1 figure {
     width: 100%;
     height: 468px;
     border-radius: 1rem 1rem 1rem 1rem;
@@ -695,21 +695,21 @@ h1{
     margin-inline-end: 5px;
 }
 
-.image1 img{
+.image1 img {
     object-fit: cover;
     width: 100%;
     height: 420px;
     border-radius: 1rem 1rem 0 0;
 }
 
-.image1 figcaption{
+.image1 figcaption {
     color: black;
     font-size: 15px;
     padding-left: 15px;
     padding-top: 13px;
 }
 
-.image2{
+.image2 {
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 1;
@@ -717,15 +717,15 @@ h1{
     transition:0.5s;
 }
 
-.image2:hover{
+.image2:hover {
     transform : scale(1.2);
  }
 
-.image2 a{
+.image2 a {
     text-decoration: none;
 }
 
-.image2 figure{
+.image2 figure {
     width: 100%;
     height: 274px;
     border-radius: 1rem 1rem 1rem 1rem;
@@ -736,21 +736,21 @@ h1{
     margin-inline-end: 5px;
 }
 
-.image2 img{
+.image2 img {
     object-fit: cover;
     width: 100%;
     height: 219px;
     border-radius: 1rem 1rem 0 0;
 }
 
-.image2 figcaption{
+.image2 figcaption {
     color: black;
     font-size: 15px;
     padding-left: 15px;
     padding-top: 13px;
 }
 
-.image3{ 
+.image3 { 
     grid-column-start: 2;
     grid-column-end: 2;
     grid-row-start: 2;
@@ -758,15 +758,15 @@ h1{
     transition:0.5s;
 }
 
-.image3:hover{
+.image3:hover {
     transform : scale(1.2);
  }
 
-.image3 a{
+.image3 a {
     text-decoration: none;
 }
 
-.image3 figure{
+.image3 figure {
     width: 100%;
     height: 141px;
     border-radius: 1rem 1rem 1rem 1rem;
@@ -775,20 +775,20 @@ h1{
     margin-inline-start: 0px;
 }
 
-.image3 img{
+.image3 img {
     object-fit: cover;
     width: 100%;
     height: 94px;
     border-radius: 1rem 1rem 0 0;
 }
 
-.image3 figcaption{
+.image3 figcaption {
     color: black;
     font-size: 15px;
     padding-left: 15px;
     padding-top: 15px;
 }
-.image4{
+.image4 {
     grid-column-start: 3;
     grid-column-end: 3;
     grid-row-start: 1;
@@ -796,15 +796,15 @@ h1{
     transition:0.5s;
 }
 
-.image4:hover{
+.image4:hover {
     transform : scale(1.2);
  }
 
-.image4 a{
+.image4 a {
     text-decoration: none;
 }
     
-.image4 figure{
+.image4 figure {
     width: 100%;
     height: 468px;
     border-radius: 1rem 1rem 1rem 1rem;
@@ -815,21 +815,21 @@ h1{
     margin-inline-end: 5px;
 }
 
-.image4 img{
+.image4 img {
     object-fit: cover;
     width: 100%;
     height: 420px;
     border-radius: 1rem 1rem 0 0;
 }
 
-.image4 figcaption{
+.image4 figcaption {
     color: black;
     font-size: 15px;
     padding-left: 15px;
     padding-top: 13px;
 }
 
-.image5{ 
+.image5 { 
     grid-column-start: 4;
     grid-column-end: 4;
     grid-row-start: 1;
@@ -837,15 +837,15 @@ h1{
     transition:0.5s;
 }
 
-.image5:hover{
+.image5:hover {
     transform : scale(1.2);
  }
 
-.image5 a{
+.image5 a {
     text-decoration: none;
 }
 
-.image5 figure{
+.image5 figure {
     width: 100%;
     height: 209px;
     border-radius: 1rem 1rem 1rem 1rem;
@@ -856,14 +856,14 @@ h1{
     margin-inline-end: 5px;
 }
 
-.image5 img{
+.image5 img{ 
     object-fit: cover;
     width: 100%;
     height: 159px;
     border-radius: 1rem 1rem 0 0;
 }
 
-.image5 figcaption{
+.image5 figcaption {
     color: black;
     font-size: 15px;
     padding-left: 15px;
@@ -878,15 +878,15 @@ h1{
     transition:0.5s;
 }
 
-.image6:hover{
+.image6:hover {
     transform : scale(1.2);
  }
 
-.image6 a{
+.image6 a {
     text-decoration: none;
 }
 
-.image6 figure{
+.image6 figure {
     width: 100%;
     height: 233px;
     border-radius: 1rem 1rem 1rem 1rem;
@@ -895,14 +895,14 @@ h1{
     margin-inline-start: 0px;
 }
 
-.image6 img{
+.image6 img {
     object-fit: cover;
     width: 100%;
     height: 183px;
     border-radius: 1rem 1rem 0 0;
 }
 
-.image6 figcaption{
+.image6 figcaption {
     color: black;
     font-size: 15px;
     padding-left: 15px;
@@ -911,12 +911,12 @@ h1{
 
 /*footer*/
 
-.basdepage{
+.basdepage {
     width: 100%;
     background-color:#F2F2F2;
 }
 
-.contenu-footer{
+.contenu-footer {
     margin: 0;
     display: flex;
     flex-direction: row;
@@ -933,33 +933,33 @@ h1{
 
 .footer-apropos h4,
 .footer-hebergements h4,
-.footer-assistance h4{
+.footer-assistance h4 {
     font-size: 16px;
 }
 
 .liste-apropos,
 .liste-noshebergements,
-.liste-assistance{
+.liste-assistance {
     list-style-type: none;
     padding-left: 0px;
 }
 
 .liste-apropos li,
 .liste-noshebergements li,
-.liste-assistance li{
+.liste-assistance li {
     padding: 5px 0;
 }
 
 .liste-apropos a,
 .liste-noshebergements a,
-.liste-assistance a{
+.liste-assistance a {
     text-decoration: none;
     color: black;
 }
 
 .liste-apropos a:hover,
 .liste-noshebergements a:hover,
-.liste-assistance a:hover{
+.liste-assistance a:hover {
     text-decoration: underline;
 }
   
