@@ -97,14 +97,14 @@
   }
   .image2 figure{
       height: 200px;
-      margin-block-start: -9;
+      margin-block-start: -9px;
   }
   .image2 img{
       height:150px;
   }
   .image3 figure{
     height: 200px;
-    margin-block-start: -9;
+    margin-block-start: -9px;
   }
   .image3 img{
     height:150px;
