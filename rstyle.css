@@ -1,7 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 /*media*/
-
+@media screen and (max-width:1024px){
+    #lespluspopulaires{
+        grid-column-start: 1!important;
+        margin: 10px!important;
+        grid-row: 1!important;
+        width: 96%!important;
+    }
+    #hebergementsamarseille{
+        width:97%!important;
+    }
+    .image5 figure{
+        width:89%!important;
+    }
+    .image6 figure{
+        width:89%!important;
+    }
+}
 @media screen and (max-width: 750px){
 
 /* HEADER */
@@ -30,23 +46,25 @@
       height:  75px;
   }
   .formulaire {
-      display: flex;
+      display: flex!important;
   }
   
   /* PARAMETRES DU DISPLAY BOUTON LOUPE */
     
     .search {
-    display: none;
+    cursor: pointer!important;
     color: white;
     background-color: #0065fc;
-    padding: 18px;
-    border-radius: 18px;
-    position: relative;
-    right: 52px;
+    padding: 27px!important;
+    border-radius: 19px!important;
+    position: relative!important;
+    right: -1px!important;
+    display: inline!important;
+    border: none!important;
   }
 
-   .boutonderecherche {
-    display: none;
+   .bouton {
+    display: none!important;
   }
 
  /*filtres*/
@@ -62,70 +80,84 @@
   /*populaires*/
     
   #lespluspopulaires {
-    grid-column-start: 1;
-    margin: 10px;
-    grid-row: 1;
+    grid-column-start: 1!important;
+    margin: 10px!important;
+    grid-row: 1!important;
+    width: 96%!important;
   }
   .flotte img {
-      height: 155px;
+      height: 155px!important;
   }
    /*hebergements*/
 
    #hebergementsamarseille {
-       background-color: white;
+       background-color: white!important;
    }
    .hebergementstitre {
-       background-color: white;
+       background-color: white!important;
    }
    .alignement {
-       flex-direction: column;
+       flex-direction: column!important;
+       margin-left: -17px!important;
    }
    .bannieres {
-       width: 140px;
+       width: 346px!important;
    }
     /*activites*/
     
    #activitesamarseille {
-       display: flex;
-       flex-direction: column;
+       display: flex!important;
+       flex-direction: column!important;
   }
   .image1 figure {
-      height: 200px;
+      width: 89%!important;
+      height: 200px!important;
   }
   .image1 img {
-      height:150px;
+      height:150px!important;
   }
   .image2 figure {
-      height: 200px;
-      margin-block-start: -9px;
+      width: 89%!important;
+      height: 200px!important;
+      margin-block-start: -9px!important;
   }
   .image2 img {
-      height:150px;
+      height:150px!important;
   }
   .image3 figure {
-    height: 200px;
-    margin-block-start: -9px;
+    width: 89%!important;
+    height: 200px!important;
+    margin-block-start: -9px!important;
   }
   .image3 img {
-    height:150px;
+    height:150px!important;
   }
   .image4 figure {
-    height: 200px;
+    width: 89%!important;
+    height: 200px!important;
+    margin-block-start: -12px!important;
   }
   .image4 img {
-    height:150px;
+    height:150px!important;
   }
   .image5 figure {
-      height: 200px;
-      margin-block-start: -4px;
+      height: 200px!important;
+      margin-block-start: -4px!important;
   }
   .image5 img {
-      height:150px;
+      height:150px!important;
+  }
+  .image6 figure{
+      height: 200px!important;
+      margin-block-start: 6px!important;
+  }
+  .image6 img{
+      height: 150px!important;
   }
 
   /*footer*/
   .contenu-footer {
-      flex-direction: column;
+      flex-direction: column!important;
   }
 
 }
