@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
 /*media*/
-@media screen and (max-width:1024px){
+@media screen and (min-width:750px) and (max-width:1024px){
     #lespluspopulaires{
         grid-column-start: 1!important;
         margin: 10px!important;
         grid-row: 1!important;
         width: 96%!important;
     }
+    
+    .hebergementstitre {
+        background-color: white!important;
+    }
     #hebergementsamarseille{
         width:97%!important;
+        background-color: white!important;
     }
     .image5 figure{
         width:89%!important;
@@ -21,7 +26,11 @@
 @media screen and (max-width: 750px){
 
 /* HEADER */
+  .menu { 
+      margin-left: -3em;
+      margin-right: -4em;
 
+  }
   .menu ul {
       flex-wrap: wrap-reverse;
       padding-left: 0;
@@ -67,23 +76,43 @@
     display: none!important;
   }
 
+  .champ{
+      font-size: 14px!important;
+  }
+
  /*filtres*/
-    
-    .filtres {
-        display: flex;
+   
+   .filtres h3{
+       float:none!important;
+   }
+
+  .economique{
+      margin-left: -24px!important;
   }
     
-      .filtre {
-        margin-bottom: 10px;
+  .familial{
+      margin-left: 3px!important;
   }
-    
+  .romantique{
+      margin-left: -24px!important;
+  }
+
+  .animaux{
+      margin-left: -24px!important;
+  }
   /*populaires*/
     
+  .deuxiemesection{
+      margin-left: none!important;
+  }
   #lespluspopulaires {
     grid-column-start: 1!important;
-    margin: 10px!important;
+    border-radius: 0px 0px 0px 0px!important;
     grid-row: 1!important;
-    width: 96%!important;
+    width: 100%!important;
+  }
+  .populaires{
+      padding-left: -4px!important;
   }
   .flotte img {
       height: 155px!important;
@@ -98,7 +127,7 @@
    }
    .alignement {
        flex-direction: column!important;
-       margin-left: -17px!important;
+       margin-left: -7px!important;
    }
    .bannieres {
        width: 346px!important;
