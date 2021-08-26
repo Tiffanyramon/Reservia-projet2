@@ -4,11 +4,11 @@
 @media screen and (min-width:750px) and (max-width:1024px){
     #lespluspopulaires{
         grid-column-start: 1!important;
-        margin: 10px!important;
+        border-radius: 0px 0px 0px 0px!important;
         grid-row: 1!important;
-        width: 96%!important;
+        width: 100%!important;
     }
-    
+
     .hebergementstitre {
         background-color: white!important;
     }
@@ -103,7 +103,7 @@
   /*populaires*/
     
   .deuxiemesection{
-      margin-left: none!important;
+      margin-left: 0!important;
   }
   #lespluspopulaires {
     grid-column-start: 1!important;
@@ -112,7 +112,7 @@
     width: 100%!important;
   }
   .populaires{
-      padding-left: -4px!important;
+      padding-left: 0px!important;
   }
   .flotte img {
       height: 155px!important;
@@ -127,7 +127,7 @@
    }
    .alignement {
        flex-direction: column!important;
-       margin-left: -7px!important;
+       margin-left: 17px!important;
    }
    .bannieres {
        width: 346px!important;
@@ -170,13 +170,15 @@
     height:150px!important;
   }
   .image5 figure {
+      width: 89%!important;
       height: 200px!important;
       margin-block-start: -4px!important;
   }
   .image5 img {
-      height:150px!important;
+      height: 150px!important;
   }
   .image6 figure{
+      width: 89%!important;
       height: 200px!important;
       margin-block-start: 6px!important;
   }
