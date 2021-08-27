@@ -54,7 +54,7 @@
       text-align: right;
       height:  75px;
   }
-  .formulaire {
+  .formulaires {
       display: flex!important;
   }
   
@@ -192,7 +192,9 @@
   }
 
 }
-
+html{   
+    overflow-x: hidden;
+}
 html, body {
     background-attachment: scroll;
     /*le fond ne bouge pas*/
@@ -734,6 +736,7 @@ h1 {
     grid-column-gap: 50px;
     grid-row-gap: 25px;
     margin-left: 30px;
+    margin-right: 30px;
 }
 .image1 {
     grid-column-start: 1;
