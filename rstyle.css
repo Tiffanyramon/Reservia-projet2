@@ -1,197 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
 
-/*media*/
-@media screen and (min-width:750px) and (max-width:1024px){
-    #lespluspopulaires{
-        grid-column-start: 1!important;
-        border-radius: 0px 0px 0px 0px!important;
-        grid-row: 1!important;
-        width: 100%!important;
-    }
 
-    .hebergementstitre {
-        background-color: white!important;
-    }
-    #hebergementsamarseille{
-        width:97%!important;
-        background-color: white!important;
-    }
-    .image5 figure{
-        width:89%!important;
-    }
-    .image6 figure{
-        width:89%!important;
-    }
-}
-@media screen and (max-width: 750px){
 
-/* HEADER */
-  .menu { 
-      margin-left: -3em;
-      margin-right: -4em;
-
-  }
-  .menu ul {
-      flex-wrap: wrap-reverse;
-      padding-left: 0;
-      padding-top: 0px;
-  }
-  .hebergements {
-      width:50%;
-      text-align: center;
-      border-bottom: 3px solid #0065FC;
-      padding-bottom: 30px;
-  }
-  .hebergements a {
-      border-top: none !important;/*nfp*/
-  }
-  .activités {
-      width: 50%;
-      text-align: center;
-      border-bottom: 3px solid #F2F2F2;
-  }
-  .sinscrire {
-      text-align: right;
-      height:  75px;
-  }
-  .formulaires {
-      display: flex!important;
-  }
-  
-  /* PARAMETRES DU DISPLAY BOUTON LOUPE */
-    
-    .search {
-    cursor: pointer!important;
-    color: white;
-    background-color: #0065fc;
-    padding: 27px!important;
-    border-radius: 19px!important;
-    position: relative!important;
-    right: -1px!important;
-    display: inline!important;
-    border: none!important;
-  }
-
-   .bouton {
-    display: none!important;
-  }
-
-  .champ{
-      font-size: 14px!important;
-  }
-
- /*filtres*/
-   
-   .filtres h3{
-       float:none!important;
-   }
-
-  .economique{
-      margin-left: -24px!important;
-  }
-    
-  .familial{
-      margin-left: 3px!important;
-  }
-  .romantique{
-      margin-left: -24px!important;
-  }
-
-  .animaux{
-      margin-left: -24px!important;
-  }
-  /*populaires*/
-    
-  .deuxiemesection{
-      margin-left: 0!important;
-  }
-  #lespluspopulaires {
-    grid-column-start: 1!important;
-    border-radius: 0px 0px 0px 0px!important;
-    grid-row: 1!important;
-    width: 100%!important;
-  }
-  .populaires{
-      padding-left: 0px!important;
-  }
-  .flotte img {
-      height: 155px!important;
-  }
-   /*hebergements*/
-
-   #hebergementsamarseille {
-       background-color: white!important;
-   }
-   .hebergementstitre {
-       background-color: white!important;
-   }
-   .alignement {
-       flex-direction: column!important;
-       margin-left: 17px!important;
-   }
-   .bannieres {
-       width: 346px!important;
-   }
-    /*activites*/
-    
-   #activitesamarseille {
-       display: flex!important;
-       flex-direction: column!important;
-  }
-  .image1 figure {
-      width: 89%!important;
-      height: 200px!important;
-  }
-  .image1 img {
-      height:150px!important;
-  }
-  .image2 figure {
-      width: 89%!important;
-      height: 200px!important;
-      margin-block-start: -9px!important;
-  }
-  .image2 img {
-      height:150px!important;
-  }
-  .image3 figure {
-    width: 89%!important;
-    height: 200px!important;
-    margin-block-start: -9px!important;
-  }
-  .image3 img {
-    height:150px!important;
-  }
-  .image4 figure {
-    width: 89%!important;
-    height: 200px!important;
-    margin-block-start: -12px!important;
-  }
-  .image4 img {
-    height:150px!important;
-  }
-  .image5 figure {
-      width: 89%!important;
-      height: 200px!important;
-      margin-block-start: -4px!important;
-  }
-  .image5 img {
-      height: 150px!important;
-  }
-  .image6 figure{
-      width: 89%!important;
-      height: 200px!important;
-      margin-block-start: 6px!important;
-  }
-  .image6 img{
-      height: 150px!important;
-  }
-
-  /*footer*/
-  .contenu-footer {
-      flex-direction: column!important;
-  }
-
-}
 html{   
     overflow-x: hidden;
 }
@@ -1030,5 +840,203 @@ h1 {
 .liste-noshebergements a:hover,
 .liste-assistance a:hover {
     text-decoration: underline;
+}
+
+
+/*version mobile*/
+@media screen and (max-width: 750px){
+
+/* HEADER */
+  .menu { 
+      margin-left: -3em;
+      margin-right: -4em;
+
+  }
+  .menu ul {
+      flex-wrap: wrap-reverse;
+      padding-left: 0;
+      padding-top: 0px;
+  }
+  .hebergements {
+      width:50%;
+      text-align: center;
+      border-bottom: 3px solid #0065FC;
+      padding-bottom: 30px;
+  }
+  .hebergements a {
+      border-top: none !important;/*nfp*/
+  }
+  .activités {
+      width: 50%;
+      text-align: center;
+      border-bottom: 3px solid #F2F2F2;
+  }
+  .activités a:hover{
+    border-bottom: 4px solid #0065FC!important;
+    border-top: none!important;
+    padding-bottom: 30px!important;
+
+  }
+  .sinscrire {
+      text-align: right;
+      height:  75px;
+  }
+  .formulaires {
+      display: flex!important;
+  }
+  
+  /* PARAMETRES DU DISPLAY BOUTON LOUPE */
+    
+    .search {
+    cursor: pointer!important;
+    color: white;
+    background-color: #0065fc;
+    padding: 27px!important;
+    border-radius: 19px!important;
+    position: relative!important;
+    right: -1px!important;
+    display: inline!important;
+    border: none!important;
+  }
+
+   .bouton {
+    display: none!important;
+  }
+
+  .champ{
+      font-size: 14px!important;
+  }
+
+ /*filtres*/
+   
+   .filtres h3{
+       float:none!important;
+   }
+   .filtres ul{
+       padding: 0!important; 
+   }
+  /*populaires*/
+    
+  .deuxiemesection{
+      margin-left: 0!important;
+  }
+  #lespluspopulaires {
+    grid-column-start: 1!important;
+    border-radius: 0px 0px 0px 0px!important;
+    grid-row: 1!important;
+    width: 100%!important;
+  }
+  .populaires{
+      padding-left: 0px!important;
+  }
+  .flotte img {
+      height: 155px!important;
+  }
+   /*hebergements*/
+
+   .deuxiemesection{
+       margin: 0!important; 
+   }
+
+   #hebergementsamarseille {
+       background-color: white!important;
+       display: flex!important;
+       flex-direction: column!important;
+   }
+   .hebergementstitre {
+       background-color: white!important;
+   }
+   .alignement {
+       flex-direction: column!important;
+       margin-left: 17px!important;
+   }
+   .bannieres {
+       width: 100%!important;
+   }
+    /*activites*/
+    
+   #activitesamarseille {
+       display: flex!important;
+       flex-direction: column!important;
+       margin-left: 16px!important;
+       margin-right: 18px!important;
+  }
+  .image1 figure {
+      width: 100%!important;
+      height: 200px!important;
+  }
+  .image1 img {
+      height:150px!important;
+  }
+  .image2 figure {
+      width: 100%!important;
+      height: 200px!important;
+      margin-block-start: -9px!important;
+  }
+  .image2 img {
+      height:150px!important;
+  }
+  .image3 figure {
+    width: 100%!important;
+    height: 200px!important;
+    margin-block-start: -9px!important;
+  }
+  .image3 img {
+    height:150px!important;
+  }
+  .image4 figure {
+    width: 100%!important;
+    height: 200px!important;
+    margin-block-start: -12px!important;
+  }
+  .image4 img {
+    height:150px!important;
+  }
+  .image5 figure {
+      width: 100%!important;
+      height: 200px!important;
+      margin-block-start: -4px!important;
+  }
+  .image5 img {
+      height: 150px!important;
+  }
+  .image6 figure{
+      width: 100%!important;
+      height: 200px!important;
+      margin-block-start: 6px!important;
+  }
+  .image6 img{
+      height: 150px!important;
+  }
+
+  /*footer*/
+  .contenu-footer {
+      flex-direction: column!important;
+  }
+
+}
+
+/*version tablette*/
+@media screen and (min-width:750px) and (max-width:1024px){
+    #lespluspopulaires{
+        grid-column-start: 1!important;
+        border-radius: 0px 0px 0px 0px!important;
+        grid-row: 1!important;
+        width: 100%!important;
+    }
+
+    .hebergementstitre {
+        background-color: white!important;
+    }
+    #hebergementsamarseille{
+        width:97%!important;
+        background-color: white!important;
+    }
+    .image5 figure{
+        width:89%!important;
+    }
+    .image6 figure{
+        width:89%!important;
+    }
 }
   
