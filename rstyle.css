@@ -849,7 +849,7 @@ h1 {
 /* HEADER */
   .menu { 
       margin-left: -3em;
-      margin-right: -4em;
+      margin-right: -3em;
 
   }
   .menu ul {
@@ -872,7 +872,7 @@ h1 {
       border-bottom: 3px solid #F2F2F2;
   }
   .activités a:hover{
-    border-bottom: 4px solid #0065FC!important;
+    border-bottom: 3px solid #0065FC!important;
     border-top: none!important;
     padding-bottom: 30px!important;
 
@@ -908,12 +908,26 @@ h1 {
   }
 
  /*filtres*/
-   
+   .filtres{
+       width: auto!important;
+   }
    .filtres h3{
        float:none!important;
    }
    .filtres ul{
        padding: 0!important; 
+   }
+   .premiere{
+       margin-left: 0!important;
+   }
+   .deuxieme{
+       margin-left: 10px!important;
+   }
+   .troiseme{
+       margin-left: 0!important;
+   }
+   .quatrieme{
+       margin-left: 0!important;
    }
   /*populaires*/
     
@@ -1028,6 +1042,22 @@ h1 {
     .hebergementstitre {
         background-color: white!important;
     }
+    .premiere{
+        margin-left: 0!important;
+    }
+    .deuxieme{
+        margin-left: 10px!important;
+    }
+    .troiseme{
+        margin-left: 10px!important;
+    }
+    .quatrieme{
+        margin-left: 10px!important;
+    }
+    .deuxiemesection{
+        margin-left: 0!important;
+    }
+
     #hebergementsamarseille{
         width:97%!important;
         background-color: white!important;
